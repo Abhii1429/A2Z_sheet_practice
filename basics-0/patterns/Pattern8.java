@@ -23,7 +23,7 @@ public class Pattern8 {  // Diamond pattern
     }
 //----------------------------------------------------
     // inverted pyramid
-    for(int i = 0; i < n; i++){
+     for(int i = 0; i < n; i++){
         // spaces
         for(int j = 0; j < i; j++){
             System.out.print(" ");
@@ -39,7 +39,7 @@ public class Pattern8 {  // Diamond pattern
             System.out.print(" ");
         }
         System.out.println();
-    }
+     }
    }
 public static void main(String[] args){
     Pattern8 p = new  Pattern8();
